@@ -1,0 +1,230 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    /* font-family: 'Open Sans', -apple-system, 'Roboto', 'Helvetica Neue', sans-serif; */
+    font-family: 'Open Sans', -apple-system, 'Roboto', 'Helvetica Neue', sans-serif;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.33;
+    overflow-x: hidden;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+*:focus {
+    outline: 0;
+}
+
+button{
+    outline: none !important;
+}
+
+.size-desktop{
+    max-width: 1264px;
+    min-width: 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: transparent;
+    z-index: 11;
+}
+
+.specific-topicc h2{
+    font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+::-webkit-input-placeholder {
+    opacity: 0.4; /* Firefox */
+  }
+
+::-moz-placeholder {
+    opacity: 0.4; /* Firefox */
+  }
+
+:-ms-input-placeholder {
+    opacity: 0.4; /* Firefox */
+  }
+
+::-ms-input-placeholder {
+    opacity: 0.4; /* Firefox */
+  }
+
+::placeholder {
+    opacity: 0.4; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    opacity: 0.4; 
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    opacity: 0.4; 
+  }
+
+.for-page-background{
+    background: #fafafa;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+            box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  }
+
+.transition-page{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.transition-page a{
+    color: rgb(51, 51, 51);
+}
+
+.transition-page a:hover{
+    text-decoration: underline;
+    color: rgb(51, 51, 51);
+}
+
+.select-optionn select{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: #fafafa;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.select-optionn{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+}
+
+.down-iconn{
+    position: absolute;
+    right: 10px;
+}
+
+.filter-fields-style{
+    background: #fafafa;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+input,textarea{
+    border:1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 14px;
+    font-family: 'Open Sans', -apple-system, 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+.checkboxes-multi{
+    position: relative;
+    background: white;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+            box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+    height: 250px;
+    overflow-y: scroll;
+    z-index: 200;
+    padding: 10px;
+}
+
+.checkboxes-multi label{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.checkboxes-multi input{
+    margin-right: 5px;
+}
+
+.input-multi-select{
+    position: relative;
+}
+
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.apply-filterr button{
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: rgb(112, 146, 254);
+    border: 1px solid rgb(112, 146, 254);
+    border-radius: 5px;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+.apply-filterr button:hover{
+    color: rgb(112, 146, 254);
+    background: rgb(247, 249, 254);
+    /* box-shadow: rgb(112, 146, 254) 0px 0px 0px 1px inset; */
+}
+
+.color-opacity{
+    color: rgb(133, 133, 133);
+}
+
+.site-makerr{
+    text-decoration: underline !important;
+    color: rgb(51, 51, 51);
+}

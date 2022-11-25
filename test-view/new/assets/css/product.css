@@ -1,0 +1,485 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+html{
+    overflow-x:visible !important;
+}
+
+
+.productt-add-save{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: transparent;
+    border: none;
+}
+
+.productt-add-save:hover{
+    color: rgb(112, 146, 254);
+}
+
+#wowslider-container1 {
+    width: 100% !important;
+    overflow: hidden;
+    height: 342px !important;
+}
+
+#wowslider-container1 {
+    display: table;
+    zoom: 1;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    max-height: 600px;
+    margin: 0px auto 0px;
+    z-index: 90;
+    text-align: left;
+    font-size: 10px;
+    text-shadow: none;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+}
+
+#wowslider-container1 .ws_images {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    max-height: 600px;
+    max-width: 100%;
+    vertical-align: top;
+    border: 1px solid rgba(64, 72, 79, 0.05);
+    overflow: hidden;
+}
+
+#wowslider-container1 .ws_thumbs {
+    width: 14.9em;
+    height: 100%;
+}
+
+#lightSlider{
+    height: 441px !important;
+}
+
+.lSPager.lSGallery{
+    height: 82px !important;
+}
+
+.lSSlideOuter .lSPager.lSGallery li{
+    height: 100%;
+}
+
+.lSSlideOuter .lSPager.lSGallery li a{
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.lSSlideOuter .lSPager.lSGallery img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.lSNext span, .lSPrev span{
+    background: white;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.lSPrev svg{
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.productt-detaill{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    padding: 30px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.productt-second-info{
+    font-size: 16px;
+    padding: 30px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.productt-second-info .product-detail-necessary:last-of-type{
+    margin-bottom: 0px;
+}
+
+
+.product-detail-necessary{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+.productt-detaill-left{
+    width: calc(100%/4);
+    opacity: 0.8;
+}
+
+.productt-detaill-right{
+    width: calc(100%*3/4);
+}
+
+.product-detail-info{
+    padding: 0px 20px;
+}
+
+.product-owner-number{
+    padding: 4px 16px;
+    background: rgb(112, 146, 254) none repeat scroll 0% 0%;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    border: none;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+    margin-right: 10px;
+}
+
+.product-owner-number:hover{
+    background: rgb(123, 154, 254) none repeat scroll 0% 0%;
+}
+
+.button-buy-product{
+    padding: 4px 16px;
+    background: #49bd68;
+    border-radius: 8px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    border: none;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.button-buy-product:hover{
+    background: #3b994e;
+}
+
+.product-owner-message{
+    padding: 4px 16px;
+    background:  rgb(235, 235, 235);
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: rgb(112, 146, 254);
+    border: none;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+.product-owner-message a{
+    color: rgb(112, 146, 254);
+}
+
+.product-owner-message:hover{
+    background: rgb(237, 237, 237) none repeat scroll 0% 0%;
+}
+
+.productt-detaill-right .social-sitess a{
+    margin-bottom: 0px !important;
+}
+
+
+.productt-right-sidee .product-owner-number,.productt-right-sidee .product-owner-message{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+.product-ownerr-img a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.product-ownerr-img a img{
+    border-radius: 50%;
+}
+
+.product-ownerr-name a{
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(112, 146, 254);
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    margin-left: 10px;
+}
+
+.product-ownerr-name a:hover{
+    text-decoration: underline !important;
+}
+
+.product-ownerr{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+}
+
+.sticky_product_right_side{
+    position: fixed;
+    top: 64px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.inside-product-right-side{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 64px;
+}
+
+.fancybox-content img{
+    width: 100%;
+    height: 100%;
+}
+
+.fancybox-content{
+    width: 500px;
+}
+
+.mobile-product-header .specific-topicc h2{
+    font-size: 23px !important;
+    line-height: 1.4;
+}
+
+.product-comment-input{
+    height:120px;
+    margin-top: 10px;
+}
+
+.product-comment-input textarea{
+    width: 100%;
+    height: 100%;
+    padding: 3px 14px;
+}
+
+.new-product-added {
+    display: flex;
+    justify-content: center;
+}
+
+.new-product-added button {
+    display: block;
+    padding: 4px 15px 4px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #7092fe;
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+    height: 32px;
+    transition: 0.2s ease all;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: white;
+    transition: 0.2s ease all;
+}
+
+.star-submit .fa-star{
+	font-size: 16px;
+	color: #dddddd;
+	cursor: pointer;
+	transition: 0.3s all;
+	margin: 0;
+}
+
+.for-star-radio{
+	display: none !important;
+}
+
+.for-star-radio:not(:checked) ~ .fa-star:hover,
+.for-star-radio:not(:checked) ~ .fa-star:hover ~ .fa-star{
+	color: #ffa700de;
+}
+
+.star-submit input:checked ~ label{
+	color: #ffa700de;
+}
+
+.star-submit{
+	direction: rtl;
+}
+
+.form-input-submit{
+    margin-top: 10px;
+}
+
+.product-owner-showw-number,.product-owner-hidden-number{
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0px;
+    transition: 0.5s ease all;
+}
+
+.product-owner-showw-number-show,.product-owner-hidden-number-show{
+    opacity: 1;
+    visibility: visible;
+    max-height: 100px;
+    white-space: nowrap;
+}
+
+.product-owner-hidden-number a{
+    color:white;
+}
+
+.user-comment-img{
+    width: 100px;
+    height: 100px;
+}
+
+.user-comment-img img{
+    border-radius:50%;
+}
+
+.user-comment-name a{
+    color: #333333;
+    opacity: 0.8;
+    font-size:16px;
+}
+
+.user-comment-name a:hover{
+    color:rgb(112, 146, 254);
+}
+
+.user-comment-added-time{
+    font-size:12px;
+    opacity:0.6;
+}
+
+.user-commentt{
+    margin-top: 10px;
+}
+
+.comment-product{
+    padding: 30px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.user-comments-all{
+    margin-top: 20px;
+}
+
+.user-comment-starr i{
+    color: #dddddd;
+}
+
+.user-comment-starr .yellow-star{
+    color: #ffa700de;
+}
+
+
+@media only screen and (max-width: 991px){
+    /* .lSAction{
+        display: none !important;
+    } */
+    .product-detail-info{
+        padding: 0px;
+    }
+    .product-long-information-label,.product-additional-info-label{
+        display: none;
+    }
+    .product-long-information,.product-additional-info{
+        width: 100% !important;
+    }
+    .product-additional-info button{
+        width: 50%;
+    }
+    .productt-detaill-left{
+        width: calc(100%/2);
+    }
+    .productt-detaill-right {
+        width: calc(100%/2);
+    }
+    .lSPager.lSGallery{
+        display: none;
+    }
+    .fancybox-content{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    #lightSlider {
+        height: 272px !important;
+    }
+    .user-comment-img{
+        width: 50px;
+        height: 50px;
+    }
+    .user-comment-name a{
+        font-size: 14px;
+    }
+    .user-comment-added-time{
+        font-size: 10px;
+    }
+    .user-commentt{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 605px){
+    .mobile-product-header .specific-topicc h2{
+        font-size: 19px !important;
+    }
+}

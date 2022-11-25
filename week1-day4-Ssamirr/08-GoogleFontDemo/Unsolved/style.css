@@ -1,0 +1,21 @@
+/**
+ * Google Fonts Demo
+ **/
+ @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+ body{
+    font-family: 'Comic Neue', cursive;
+ }
+ .thought1{
+    font-family: 'Acme', sans-serif;
+ }
+ .thought2{
+    font-family: 'Bad Script', cursive;
+ }
+ .thought3{
+    font-family: 'Libre Barcode 39 Text', cursive;
+ }
+
+/* Add in the Google Fonts of your choice */

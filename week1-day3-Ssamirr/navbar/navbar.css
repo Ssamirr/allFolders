@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: auto;
+    display: flex
+}
+li{
+    
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+    
+}
+b{
+    font-weight: bold;
+}
+ul{
+    padding: 10px;
+    display: flex;
+    
+}
+#right{
+    padding: 20px;
+    margin-left: auto;
+}
+#button1{
+    color: green;
+}
+

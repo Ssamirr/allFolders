@@ -1,0 +1,52 @@
+.country-namee a{
+    color: rgb(133, 133, 133);
+}
+
+.country-namee a:hover{
+    text-decoration: underline !important;
+}
+
+.country-namee{
+    margin-bottom: 10px;
+}
+
+.footer-info-ul a{
+    text-decoration: underline !important;
+    color: rgb(51, 51, 51);
+    
+}
+
+.footer-info-ul li{
+    margin-bottom: 10px;
+}
+
+.footer-info-ul a:hover{
+    color: rgb(112, 146, 254);
+}
+
+.facebook-social-site{
+    min-width: 32px;
+    font-size: initial;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 91, 155);
+}
+
+.youtube-social-site{
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+
+.social-sitess a{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.twitter-social-site{
+    min-width: 32px;
+    font-size: initial;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 172, 238);
+}

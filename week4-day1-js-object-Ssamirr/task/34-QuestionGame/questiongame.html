@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var score = 0;
+        var questions = {
+            q1:['Sharks are mammals.\n t(true)\n f(false)','t'],
+            q2:['Venus is the closest planet to the Sun.\n t(true)\n f(false)','f'],
+            q3:['Water is an example of a chemical element.\n t(true)\n f(false)','t'],
+            q4:['Sharks are mammals.\n t(true)\n f(false)','t'],
+            q5:['Atoms are most stable when their outer shells are full.\n t(true)\n f(false)','f'],
+            q6:['Spiders have six legs.\n t(true)\n f(false)','f'],
+            q7:['Atomic bombs work by atomic fission.\n t(true)\n f(false)','t'],
+            q8:['Sharks are mammals.\n t(true)\n f(false)','t'],
+            q9:['The study of plants is known as botany.\n t(true)\n f(false)','f'],
+            q10:['Sharks are mammals.\n t(true)\n f(false)','t'],
+        }
+            
+
+        for (x in questions) {
+            console.log(questions[x]);
+            var choose =prompt(questions[x][0]);
+            if (choose == questions[x][1]) {
+                score++;
+                alert('correct');
+            } else {
+                alert('wrong');
+            }
+        }
+        alert('your score ' + score);
+
+    </script>
+
+</body>
+
+</html>

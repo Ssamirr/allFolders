@@ -1,0 +1,334 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.carousel-back-img{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.carousel-back-img a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.carousel-header-first{
+    font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 20px;
+    -webkit-transition: color 0.4s ease 0s;
+    -o-transition: color 0.4s ease 0s;
+    transition: color 0.4s ease 0s;
+    color: rgba(51, 51, 51, 0.8);
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    display: block;
+}
+
+.carousel-header-second{
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.64);
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    display: block;
+}
+
+.owl-stage-outer{
+    width: 100%;
+    height: 100%;
+}
+
+.select-category{
+    margin-top: 40px;
+}
+
+.select-category-back-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: calc(100% - 32px);
+    /* background-position: center center; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+}
+
+.selected-category-namee{
+    color: rgb(51, 51, 51);
+    margin-top: -10px;
+    
+}
+
+.item-locationn{
+    position: absolute;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: rgba(51, 51, 51, 0.24);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 0px 8px;
+    left: 16px;
+    bottom: 16px;
+}
+
+.item-for-save{
+    position: absolute;
+    /* width: 40px; */
+    background: white;
+    padding: 2px 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    bottom: -14px;
+    right: 12px;
+    border-radius: 50px; 
+    cursor: pointer;
+}
+
+.item-for-save svg:hover{
+    opacity: 0.64;
+}
+
+.product-pricee,.item-locationn-list-view{
+    font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 16px;
+    -webkit-transition: color 0.4s ease 0s;
+    -o-transition: color 0.4s ease 0s;
+    transition: color 0.4s ease 0s;
+    color: rgb(51, 51, 51);
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    display: block;
+    padding: 8px 16px 0px 16px;
+    text-decoration: none;
+}
+
+
+.productt-name,.productt-add-time{
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    display: block;
+    padding: 0px 16px 8px 16px;
+    text-decoration: none;
+}
+
+.productt-add-time{
+    color: #8f8f8f !important; 
+}
+
+.itemm-carousel-style{
+    background: white;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 4px 0px;
+            box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 4px 0px;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+.itemm-carousel-style:hover{
+    -webkit-box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+            box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+}
+
+.products-widthh{
+    width: calc((100% - 48px)/4);
+}
+
+.all-products .products-widthh{
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.all-products .products-widthh:nth-child(4n){
+    margin-right: 0px;
+}
+
+.mobile-create-product div{
+    position: fixed;
+    bottom: 0;
+    z-index: 2000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+}
+
+.mobile-create-product{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    max-height: 1000px;
+    -webkit-transition: 0.5s ease all;
+    -o-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+    display: none;
+}
+
+.mobile-create-product-none{
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0px;
+}
+
+.mobile-create-product a{
+    background: #7092fe;
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 4px 0px;
+            box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 4px 0px;
+    height: 32px;
+    padding: 4px 15px;
+    border-radius: 8px;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+@media only screen and (max-width: 1200px){
+	.mobile-carousel{
+		max-width: 608px !important;
+	}
+    .products-widthh {
+    width: calc((100% - 32px)/3);
+    }
+    .all-products .products-widthh:nth-child(4n) {
+        margin-right: 16px;
+    }
+    .all-products .products-widthh:nth-child(3n) {
+    margin-right: 0px;
+    }
+}	
+
+@media only screen and (max-width: 991px){
+	.mobile-carousel{
+		max-width: 488px !important;
+    }
+    .carousel-back-img{
+        height: 168px;
+    }
+    .mobile-create-product{
+       display: block;
+    }
+}	
+
+@media only screen and (max-width: 767px){
+	.mobile-carousel{
+		max-width: 685px !important;
+    }
+    .carousel-back-img{
+        height: 104px;
+    }
+    .carousel-header-first{
+        font-size:14px;
+        line-height: 17px;
+    }
+    .carousel-header-second{
+        font-size:12px;
+        line-height: 17px;
+    }
+    .products-widthh {
+    width: calc((100% - 16px)/2);
+    }
+    .all-products .products-widthh:nth-child(3n) {
+    margin-right: 16px ;
+    }
+    .all-products .products-widthh:nth-child(2n) {
+        margin-right: 0px;
+    }
+    .products-widthh-margin{
+        margin-right: 0px !important;
+        width: 100% !important; 
+    }
+    
+}	
+
+@media only screen and (max-width: 649px){
+	.mobile-carousel{
+		max-width: 344px !important;
+    }
+    .carousel-back-img{
+        height: 104px;
+    }
+    .carousel-header-first{
+        font-size:14px;
+        line-height: 17px;
+    }
+    .carousel-header-second{
+        font-size:12px;
+        line-height: 17px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .select-category-back-img{
+        background-size: contain;
+    }
+}	

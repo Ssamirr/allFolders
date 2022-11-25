@@ -1,0 +1,126 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+html{
+    overflow-x:visible !important;
+}
+
+.mobile-category-filter svg{
+    padding: 4px;
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(112, 146, 254);
+    cursor: pointer;
+    color: white;
+}
+
+.mobile-category-filter-list{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    overflow-y:scroll; 
+    opacity:0;
+    visibility: hidden;
+    max-height: 0px;
+    -webkit-transition: 0.5s ease all;
+    -o-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+}
+
+.mobile-category-filter-list-show{
+    opacity:1;
+    visibility: visible;
+    max-height: 5000px;
+    z-index: 2000;
+}
+
+.category-filter-exit-icon{
+    cursor: pointer;
+}
+
+.items-view-one,.items-view-four{
+    cursor: pointer;
+}
+
+.list-save-icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 16px;
+}
+
+.list-save-icon svg{
+    color: black;
+    -webkit-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+.list-save-icon svg:hover{
+    opacity: 0.64;
+}
+
+.item-locationn-list-view {
+    padding-top: 0px;
+}
+
+.products-widthh-close{
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0px;
+    -webkit-transition: 0.5s ease all;
+    -o-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+}
+
+.products-widthh-show{
+    opacity: 1;
+    visibility: visible;
+    max-height: 5000px;
+}
+
+.products-widthh-margin{
+    margin-right: 0px !important;
+    width: 100% !important; 
+}
+.inside-filter-right-side{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 64px;
+}
+
+@media only screen and (max-width: 767px){
+    .all-products-list-view .additional-info-mobile{
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 605px){
+    .all-products-list-view .additional-info-mobile{
+        padding: 0px !important;
+    }
+    .all-products-list-view .productt-add-time, .all-products-list-view .productt-name{
+        padding-bottom: 0px;
+    }
+    .all-products-list-view .col-3{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 41.666667%;
+                flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+}

@@ -1,0 +1,260 @@
+@font-face {
+    font-family: CirceRounded-Regular;
+    src: url(../fonts/CirceRounded-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: CirceRounded-Medium;
+    src: url(../fonts/CirceRounded-Light.ttf);
+  }
+  
+  @font-face {
+    font-family: CirceRounded-Bold;
+    src: url(../fonts/CirceRounded-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: CirceRounded-ExtraBold;
+    src: url(../fonts/CirceRounded-ExtraBold.ttf);
+  }
+
+body{
+    background: #0034ff12;
+    font-family: CirceRounded-Regular;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.33;
+    overflow-x: hidden;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+    font-family: CirceRounded-Bold;
+}
+
+/* .bg-img{
+
+  background-image: url("../images/6c6e4f4a-fc3b-49f7-b76b-656f4e6f2492.JPG");
+
+
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  */
+
+.bg-img img{
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.bg-img{
+    height: 680px;
+}
+
+.header-navbar-menu{
+    padding: 25px 0;
+    overflow: hidden;
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.header-navbar-menu{
+    position: absolute;
+    bottom: 0;
+    background: white;
+    border: 1px solid #26a151;
+}
+
+.navbar-menu{
+    display: flex;
+}
+
+.navbar-menu a{
+    color: #26a151 !important;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.5s ease all;
+}
+
+.navbar-menu a:hover{
+    color: #1c532f !important;
+    transition: 0.5s ease all;
+}
+
+.header-navbar-menu::before{
+    content: "";
+    position: absolute !important;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    border-top: 40px solid #26a151;
+    border-right: 40px solid transparent;
+}
+
+.header-navbar-menu::after{
+    content: "";
+    position: absolute !important;
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 40px solid #26a151;
+    border-left: 40px solid transparent;
+}
+
+.navbar-menu ul li{
+    margin-left:40px; 
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar-right li a {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+  .navbar-right li a:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    background: #1c532f;
+    height: 2px;
+    transition-property: left right;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+  }
+  .navbar-right li a:hover:after,
+  .navbar-right li a:focus:after,
+  .navbar-right li a:active:after {
+    right: 0;
+  }
+
+.topic-name{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.topic-name h1{
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #26a151;
+    font-family: CirceRounded-ExtraBold;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.topic-name h1 .namee{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid;
+    padding: 4px 0px;
+}
+
+.bio-info{
+    font-family: CirceRounded-Bold;
+    font-size: 19px;
+    color: #26a151 !important;
+    border-bottom: 2px solid #26a151;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.bio-info-text{
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.bio-info-text p{
+    letter-spacing: 2px;
+}
+
+.bio-social-media svg{
+    fill: #26a151 !important;
+    width: 13px;
+    height: 13px;
+}
+
+.bio-social-media a{
+    padding: 10px;
+    border: 2px solid #26a151;
+    margin-left: 10px;
+    transition: 0.5s ease all;
+}
+
+.bio-social-media a:hover{
+    border-color: #1c532f;
+    transition: 0.5s ease all;
+}
+
+.bio-social-media{
+    float: right;
+    margin-top: 10px;
+}
+
+.location,.call-connection,.mail,.site{
+    display: flex;
+    letter-spacing: 2px;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+footer{
+    letter-spacing: 2px;
+}
+
+.footer{
+    justify-content: space-between;
+    padding: 60px 0px !important;
+    align-items: center;
+}
+
+.footer .bio-social-media{
+    margin: 0;
+}
+
+hr{
+    border-color: #26a151;
+}
+
+.gallery-img{
+    width: 20%;
+    height: 160px;
+}
+
+.gallery-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-gl{
+    width: 100%;
+    height: 100%;
+}

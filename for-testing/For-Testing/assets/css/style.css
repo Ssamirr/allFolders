@@ -1,0 +1,117 @@
+body{
+    background: #0034ff12;
+}
+
+html,body,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.33;
+    overflow-x: hidden;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.students{
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+.add-student{
+    width: 100%;
+    padding: 0;
+        padding-right: 0px;
+        padding-left: 0px;
+    margin: 0;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.add-button,.add-button-modal,.close-button-modal{
+    border-radius: 5px;
+    /* padding: 0rem 2.5rem !important; */
+    margin: 0 !important;
+    background-color: #2dbe60 !important;
+    border-color: #2dbe60 !important;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15) !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    transition: all 0.5s ease !important;
+    /* height: auto !important; */
+    font-weight: 500;
+    height: 35px;
+    width: 130px;
+}
+
+.add-button:hover{
+    background-color: #26a151 !important;
+    border-color: #26a151 !important;
+}
+
+.col-width{
+    width: calc(100%/5);
+    display: flex;
+}
+
+.col-name{
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.col-name-student{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.exam-name{
+    color: blue;
+    cursor: pointer;
+}
+
+.exam-name:hover{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.select-style{
+    width: 100%;
+    padding: 0;
+        padding-right: 0px;
+        padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 5px;
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background: white;
+}
+
+.modal-dialog{
+    max-width: 900px !important;
+}
+
+.modal-footer{
+    padding: 1rem !important;
+}

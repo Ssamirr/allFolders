@@ -1,0 +1,22 @@
+#add{
+    margin: 20px;
+}
+#search{
+    margin: 20px;
+}
+#join{
+    margin: 20px;
+}
+#leave{
+    margin: 20px;
+}
+#add:hover{
+    color: red;
+}
+#search:active{
+    color: blue;
+}
+#join:focus{
+    color: blueviolet;
+}
+

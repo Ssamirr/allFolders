@@ -1,0 +1,102 @@
+
+body{
+    background: #ffffff;
+    
+    }
+#email{
+    text-align: left;
+   margin: 20px 0px 20px 20px;
+}
+#i_email{
+    display: block;
+    float: left;
+    width: 600px;
+    height: 25px;
+    margin: 5px 5px 0px 18px;
+    clear: right;
+}
+#password{
+    margin: -19px 519px 20px 0px;
+    float: right;
+}
+#i_password{
+    display: block;
+    float: right;
+    margin: -36px 0px 0px 0px;
+    clear: both;
+    width:600px ;
+    height: 25px;
+}
+#adress{
+    display: block;
+    margin: 20px 0px 0px 20px;
+}
+#i_adress{
+    display: block;
+    width: 98%;
+    height: 25px;
+    margin: 0px 0px 0px 18px;
+}
+#adress2{
+display: block;
+margin:0px 0px 0px 20px;
+}
+#i_adress2{
+display: block;
+width: 98%;
+height: 25px;
+margin: 0px 0px 0px 18px;
+}
+#city{
+    text-align: left;
+display: block;
+margin: 0px 0px -5px 20px;
+}
+#i_city{
+display: block;
+height: 25px;
+float: left;
+margin-left: 18px;
+width: 500px;
+clear: right;
+}
+#state{
+float: left;
+margin-top: -34px;
+margin-left:11px;
+}
+#i_state{
+    display: block;
+    height: 36px;
+    float: left;
+    margin: 0px 0px 0px 11px ;
+    width: 370px;
+}
+#zip{
+float: right;
+margin: -30px 333px 0px 0px;
+}
+#i_zip{
+display: block;
+height: 25px;
+float: right;
+margin: -1px 0px 0px 17px;
+width: 347px;
+}
+#check{
+display: block;
+float: left;
+margin: 15px 0px 0px 15px;
+}
+#i_check{
+float: left;
+margin: 15px 0px 0px 10px;
+}
+#sign{
+    background: #085fe0;
+    color: #ffffff;
+    margin: 0px 0px 0px 13px;
+    width: 100px;
+    height: 50px;
+    border-radius: 14px;
+}
